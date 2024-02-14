@@ -4,9 +4,9 @@ import { ThemeContext } from './ThemeContext'
 const Projects = () => {
   let {state,changemod} = useContext(ThemeContext)
   return (
-    <div className='w-[100vw] flex justify-center '>
-       <div className='w-[96%] max-w-[900px] mt-[20px] text-[12px]  flex gap-[14px] flex-wrap rounded-[20px]'>
-        <div className={`border-[1px] px-[15px] ${!state?"border-black text-black":"border-white text-slate-400"} w-[49%] rounded-[15px] h-[200px]`}>
+    <div className='w-[100vw] flex justify-center items-center '>
+       <div className='w-[96%] overflow-y-auto overflow-x-hidden  max-w-[900px] mt-[20px] text-base justify-center  flex gap-[14px] flex-wrap rounded-[20px]'>
+        <div className={`border-[1px] text-xs px-[15px] ${!state?"border-black text-black":"border-white text-slate-400"} w-[90%] max-w-[350px] rounded-[15px] h-[200px]`}>
         <p className={`font-bold text-center p-2 text-[15px] ${state?"text-white":"text-black"} `}>A Real Time Chat App</p>
         <p>1. Created a realtime chat app using React and Firebase .</p>
         <p>2. Integrated Firebase Authentication for secure user login.</p>
@@ -14,7 +14,7 @@ const Projects = () => {
         <p>4. Ensured usability across devices with responsive design.</p>
        
         </div>
-        <div className={`border-[1px] px-[15px] ${!state?"border-black text-black":"border-white text-slate-400"} w-[49%] rounded-[15px] h-[200px]`}>
+        <div className={`border-[1px] text-xs px-[15px] ${!state?"border-black text-black":"border-white text-slate-400"} w-[90%] max-w-[350px] rounded-[15px] h-[200px]`}>
         <p className={`font-bold text-center p-2 text-[15px] ${state?"text-white":"text-black"} `}>Youtube clone</p>
         <p>1. Created a YouTube clone in ReactJS, mimicking key features like video playback and search.</p>
         <p>2. Ensured scalability and maintainability using React's component-based structure.</p>
@@ -22,7 +22,7 @@ const Projects = () => {
         <p>4. Delivered a polished final product with a seamless user experience.</p>
        
         </div>
-        <div className={`border-[1px] px-[15px] ${!state?"border-black text-black":"border-white text-slate-400"} w-[49%] rounded-[15px] h-[200px]`}>
+        <div className={`border-[1px] text-xs px-[15px] ${!state?"border-black text-black":"border-white text-slate-400"} w-[90%] max-w-[350px] rounded-[15px] h-[200px]`}>
          <p className={`font-bold text-center p-2 text-[15px] ${state?"text-white":"text-black"} `}>Weather App</p>
         <p>1. Created a weather application using React to provide real-time weather forecasts and data.</p>
 <p>2. Integrated weather APIs to fetch and display current conditions, temperatures, and forecasts.</p>
@@ -31,7 +31,7 @@ const Projects = () => {
 
        
         </div>
-        <div className={`border-[1px] px-[15px] ${!state?"border-black text-black":"border-white text-slate-400"} w-[49%] rounded-[15px] h-[200px]`}>
+        <div className={`border-[1px] text-xs px-[15px] ${!state?"border-black text-black":"border-white text-slate-400"} w-[90%] max-w-[350px] rounded-[15px] h-[200px]`}>
          <p className={`font-bold text-center p-2 text-[15px] ${state?"text-white":"text-black"} `}>ToDo Application</p>
         <p>1. Built a ToDo app in ReactJS for easy task management.</p>
         <p>2. Integrated features like task creation, deletion, and completion.</p>

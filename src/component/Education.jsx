@@ -21,7 +21,7 @@ const Education = () => {
             />
           </div>
           <div
-            className={`h-[70px] ${
+            className={`text-sm h-[70px] ${
               state ? "text-slate-400" : "text-slate-800"
             }`}
           >
@@ -31,7 +31,7 @@ const Education = () => {
           </div>
         </div>
         <div
-          className={`w-[80%] max-w-[700px] h-[1px] ${
+          className={`w-[80%] max-w-[700px] mt-4 h-[1px] ${
             state ? "bg-white" : "bg-black"
           }`}
         >
@@ -53,7 +53,7 @@ const Education = () => {
             />
           </div>
           <div
-            className={`h-[70px] ${
+            className={`text-sm h-[70px] ${
               state ? "text-slate-400" : "text-slate-800"
             }`}
           >
@@ -84,7 +84,7 @@ const Education = () => {
             />
           </div>
           <div
-            className={`h-[70px] ${
+            className={`text-sm h-[70px] ${
               state ? "text-slate-400" : "text-slate-800"
             }`}
           >

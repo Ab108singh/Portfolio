@@ -12,7 +12,7 @@ const Navbar = ({ handleCurrent, comp }) => {
   return (
     <nav className="w-[100%] h-[60px]  flex justify-center items-center">
       <ul
-        className={`flex w-[70%]  justify-around text-lg ${
+        className={`flex w-[70%]  justify-around text-xs ${
           state ? "text-white" : "text-black font-bold"
         } max-w-[700px]`}
       >
@@ -66,7 +66,7 @@ const Navbar = ({ handleCurrent, comp }) => {
       </ul>
       <div
         onClick={changemod}
-        className={`w-[30px] h-[30px] ${
+        className={`ml-3 w-[30px] h-[30px] ${
           state ? "border-2" : "border-slate-600 border-2"
         } rounded-full`}
 

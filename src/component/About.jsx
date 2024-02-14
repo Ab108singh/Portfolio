@@ -7,7 +7,7 @@ const About = () => {
     <div className='flex flex-col gap-[30px] p-[0px] items-center w-[100%] h-[90vh] justify-center'>
      <div className={`flex flex-col gap-[20px]  w-[90%] max-w-[800px]  min-h-[90%] px-[30px] py-[10px] ${state?"border-white":"border-black"} border-[2px] rounded-[20px]`} >
        
-       <div className={`w-[100%] h-[45%] flex flex-col gap-[9px] pl-[px] text-[12px] ${state?"text-slate-400":"text-black"} `}> 
+       <div className={`w-[100%]  flex flex-col gap-[9px] pl-[px] text-[12px] ${state?"text-slate-400":"text-black"} `}> 
     <p><span className={`${state?"text-white":"text-black font-bold"}`}>-&gt; Name</span> - Abhay</p>
      <p><span className={`${state?"text-white":"text-black font-bold"}`}>-&gt; Fathers Name</span> - Hemant Kumar Singh</p>
      <p><span className={`${state?"text-white":"text-black font-bold"}`}>-&gt; Mothers Name</span> - Sangita Devi </p>
@@ -16,7 +16,7 @@ const About = () => {
      <p><span className={`${state?"text-white":"text-black font-bold"}`}>-&gt; Date of Birth</span> - 24/07/2001 </p>
      <p><span className={`${state?"text-white":"text-black font-bold"}`}>-&gt; Current Address</span> - 433, Phase 2, Sector 54, Sahibzada Ajit Singh Nagar, Chandigarh 160059</p>
      <p><span className={`${state?"text-white":"text-black font-bold"}`}>-&gt; Permanent Address</span> - Garhava Rajgarh Mirzapur Uttar Pradesh (231210) </p>
-     <div className={`w-[100%] h-[1px] ${state?"bg-white":"bg-black border-black"} border mt-[40px]`}></div>
+     <div className={`w-[100%] h-[1px] ${state?"bg-white":"bg-black border-black"} border mt-[20px]`}></div>
     
        </div>
         
