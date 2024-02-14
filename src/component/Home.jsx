@@ -17,13 +17,13 @@ const Home = () => {
        <p></p>
      </div>
      <div className="flex gap-[20px] justify-center mt-[20px] ">
-       <a href=""><img className="w-[40px] border-white border-[2px] bg-white rounded-full" src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Facebook_svg-512.png" alt="" /></a>
-       <a href=""><img className="w-[40px] border-white border-[2px] bg-white rounded-full" src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Instagram_svg-512.png" alt="" /></a>
-       <a href=""><img className="w-[40px] border-white border-[2px] bg-white rounded-full" src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Linkedin_svg-512.png" alt="" /></a>
-       <a href=""><img className="w-[40px] border-white border-[2px] bg-white rounded-full" src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Twitter_svg-512.png" alt="" /></a>
-       <a href=""><img className="w-[40px] border-white border-[2px] bg-white rounded-full" src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Twitter_svg-512.png" alt="" /></a>
+       <a href="https://www.instagram.com/abhaysingh.108/"><img className="w-[40px] border-white border-[2px] bg-white rounded-full" src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Instagram_svg-512.png" alt="" /></a>
+       <a href="https://www.linkedin.com/in/abhay-singh-71a8332a2/"><img className="w-[40px] border-white border-[2px] bg-white rounded-full" src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Linkedin_svg-512.png" alt="" /></a>
+       <a href="https://github.com/Ab108singh"><img className="w-[40px] border-white border-[2px] bg-white rounded-full" src="https://cdn4.iconfinder.com/data/icons/social-media-free-13/32/Github_social_media_logo-512.png" alt="" /></a>
+        <a href="https://twitter.com/Abs07330972"><img className="w-[40px] border-white border-[2px] bg-white rounded-full" src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Twitter_svg-512.png" alt="" /></a>
+        <a href="https://www.facebook.com/ab108singh/"><img className="w-[40px] border-white border-[2px] bg-white rounded-full" src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Facebook_svg-512.png" alt="" /></a>
      </div>
-     <div className={`w-[300px] h-[50px] rounded-[30px] mt-[30px] flex justify-center items-center text-[20px] font-bold ${state?"bg-white text-black":"bg-black text-white"} `}>DOWNLOAD RESUME</div>
+     <a href="https://drive.google.com/file/d/1ZlUSptaNfp68Jo4p1urlJUYT7saPu55B/view?usp=sharing" className={`w-[300px] h-[50px] rounded-[30px] mt-[30px] flex justify-center items-center text-[20px] font-bold ${state?"bg-white text-black":"bg-black text-white"} `}>DOWNLOAD RESUME</a>
     
    </div>
    </div>
