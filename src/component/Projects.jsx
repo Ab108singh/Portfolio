@@ -4,8 +4,8 @@ import { ThemeContext } from './ThemeContext'
 const Projects = () => {
   let {state,changemod} = useContext(ThemeContext)
   return (
-    <div className='w-[100vw] h-[91%] flex justify-center   '>
-       <div className='w-[90%] h-[80%] overflow-y-auto  overflow-x-hidden align  max-w-[900px] mt-[20px] text-base justify-center  flex gap-[14px] flex-wrap rounded-[20px]'>
+    <div className='w-[100vw] h-[85%] flex justify-center   '>
+       <div className='w-[90%] h-[100%] overflow-y-auto   overflow-x-hidden align  max-w-[900px] mt-[20px] py-5 text-base justify-center content-start gap-y-3 gap-x-5  flex gap-px] flex-wrap  rounded-[20px]'>
         <div className={`border-[1px] text-xs px-[15px] ${!state?"border-black text-black":"border-white text-slate-400"} w-[90%] max-w-[350px] rounded-[15px] h-[200px]`}>
         <p className={`font-bold text-center p-2 text-[15px] ${state?"text-white":"text-black"} `}>A Real Time Chat App</p>
         <p>1. Created a realtime chat app using React and Firebase .</p>

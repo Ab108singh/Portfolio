@@ -4,10 +4,10 @@ import { ThemeContext } from './ThemeContext'
 const About = () => {
   let {state,changemod} = useContext(ThemeContext)
   return (
-    <div className='flex flex-col gap-[30px] p-[0px] items-center w-[100%] h-[90vh] justify-center'>
-     <div className={`flex flex-col gap-[20px]  w-[90%] max-w-[800px]  min-h-[90%] px-[30px] py-[10px] ${state?"border-white":"border-black"} border-[2px] rounded-[20px]`} >
+    <div className='flex flex-col gap-[30px] p-[0px] items-center w-[100%] h-[87vh] justify-center'>
+     <div className={`flex flex-col gap-[20px]  w-[90%] max-w-[800px]  min-h-[90%] px-[30px] py-[10px] ${state?"border-white":"border-black"} border-[1px] rounded-[20px]`} >
        
-       <div className={`w-[100%]  flex flex-col gap-[9px] pl-[px] text-[12px] ${state?"text-slate-400":"text-black"} `}> 
+       <div className={`w-[100%]  flex flex-col gap-[9px] pl-[px] text-xs ${state?"text-slate-400":"text-black"} `}> 
     <p><span className={`${state?"text-white":"text-black font-bold"}`}>-&gt; Name</span> - Abhay</p>
      <p><span className={`${state?"text-white":"text-black font-bold"}`}>-&gt; Fathers Name</span> - Hemant Kumar Singh</p>
      <p><span className={`${state?"text-white":"text-black font-bold"}`}>-&gt; Mothers Name</span> - Sangita Devi </p>
@@ -29,8 +29,9 @@ const About = () => {
 
        <div className='w-[100%] h-[50%] flex flex-wrap gap-[4px] justify-center'>
         <div className={`w-[100%] h-[10%] text-center ${!state&&"text-black"}`}>------- Skils -------</div>
-         <div className={`w-[48%] h-[90%] text-[12px] ${state?"text-slate-400":"text-black"} flex flex-col gap-[5px] `}>
+         <div className={`w-[40%] h-[90%] text-xs ${state?"text-slate-400":"text-black"} flex flex-col gap-[5px] `}>
           <p className={`text-center text-[15px] ${state?"text-white":"text-black font-bold"}`}>Coursework Skills</p>
+         
           <p className='text-center'>Operating System</p>
           <p className='text-center'>Database Management System</p>
           <p className='text-center'>Computer Network</p>
@@ -42,7 +43,7 @@ const About = () => {
          </div>
          <div className={`w-[48%] h-[90%] text-[12px] ${state?"text-slate-400":"text-black"} flex flex-col gap-[5px] `}>
 
-         <p className={`text-center text-[15px] ${state?"text-white":"text-black font-bold"}`}>Technical Skills</p>
+         <p className={`text-center text-xs ${state?"text-white":"text-black font-bold"}`}>Technical Skills</p>
          <p className='text-center'>C++</p>
          <p className='text-center'>Data Structure and Algorithm</p>
          <p className='text-center'>Problem Solving</p>

@@ -17,7 +17,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="flex flex-col gap-[30px] p-[0px] items-center w-[100%] h-[90vh] justify-center">
+    <div className="flex flex-col gap-[30px] p-[0px] items-center w-[100%] h-[87vh] justify-center">
       <div className="flex flex-col gap-[20px]  w-[90%] max-w-[800px]  min-h-[90%] px-[30px] py-[10px] border-slate-500 border-[0.2px] rounded-[20px]">
         <form
           onSubmit={(e) => {

@@ -5,12 +5,12 @@ const Home = () => {
   const { state, changemod } = useContext(ThemeContext);
 
   return (
-    <div className='flex justify-center w-[100vw]'>
-      <div className={`flex flex-col gap-[20px] justify-center  items-center border-2 w-[90%] max-w-[800px] py-8 px-4 rounded-xl ${!state ? "border-slate-400" : "border-white"}`}>
+    <div className='flex h-[80vh] justify-center w-[100vw]'>
+      <div className={`flex flex-col gap-[20px] justify-center  items-center border- w-[90%] max-w-[750px] py-8 px-4 rounded-xl `}>
         <div className="flex flex-col gap-4">
           <p className={`text-8xl font-bold text-center ${!state && "text-black font-bold"}`}>I'm Abhay</p>
-          <p className={`text-center max-w-xl ${state ? "text-slate-400" : "text-slate-900"}`}>
-            I love making websites look awesome and run smoothly. Whether it's crafting cool designs or fixing tricky tech issues, I'm all in. I enjoy teaming up with others to brainstorm new ideas and make stuff even better. Let's build something awesome together!
+          <p className={`text-center max-w- ${state ? "text-slate-400" : "text-slate-900"}`}>
+           <span className='ml-[40px]'></span> I love making websites look awesome and run smoothly. Whether it's crafting cool designs or fixing tricky tech issues, I'm all in. I enjoy teaming up with others to brainstorm new ideas and make stuff even better. Let's build something awesome together!
           </p>
         </div>
         <div className="flex justify-center gap-4 mt-4">

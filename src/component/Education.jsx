@@ -3,7 +3,7 @@ import { ThemeContext } from "./ThemeContext";
 const Education = () => {
   let { state, changemod } = useContext(ThemeContext);
   return (
-    <div className="flex flex-col gap-[30px] p-[20px] items-center w-[100%] justify-center">
+    <div className="flex flex-col  gap-[30px] p-[20px]   items-center w-[100%] justify-center">
       <div className="w-[100%] flex flex-col items-center">
         <div
           className={`text-center pt-[20px] text-[20px] font-bold ${

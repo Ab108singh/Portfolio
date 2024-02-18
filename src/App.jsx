@@ -16,7 +16,7 @@ const App = () => {
 
   return (
     <div
-      className="h-[100vh]"
+      className="h-[100vh] "
       style={{
         backgroundImage: state
           ? "url(https://img.freepik.com/premium-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_959084-10.jpg?w=900)"
@@ -25,7 +25,7 @@ const App = () => {
         color: "white",
       }}
     >
-      <div className="flex">
+      <div className="flex justify-center">
         <Navbar handleCurrent={handleCurrent} comp={comp} />
         {/* <div className="mt-[20px] mr-[20px] w">dark</div> */}
       </div>
